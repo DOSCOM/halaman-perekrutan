@@ -7,10 +7,13 @@ img, div {
     vertical-align: baseline;
 }
 
+.screenheight{
+        height: 100vh;
+}
+
 .card{
     position: relative;
     text-align: center;
-    height: 100vh;
 }
 
 .bottom_box{
@@ -101,7 +104,7 @@ img, div {
     }
 
     .card_text_container button{
-        margin-top: 50px;
+        margin-top: 20px;
     }
 }
 
@@ -130,4 +133,21 @@ img, div {
 
 .card3{
     background-color: rgb(232, 111, 51);
+}
+
+
+
+.main-button{
+    background-color: rgba(50, 50, 50, 0.4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.main-button:hover{
+    background-color: rgba(50, 50, 50, 0.5);
 }
